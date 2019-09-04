@@ -16,6 +16,7 @@
    rs=st.executeQuery("select * from members where uname='"+userid+"'"
            + " and pass='"+pwd+"'");
    if(rs.next()){
+       //get login username
        session.setAttribute("userid", userid);
        response.sendRedirect("success.jsp");
    }else{

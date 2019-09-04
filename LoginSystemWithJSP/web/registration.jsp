@@ -6,6 +6,7 @@
 
 <%@page import="java.sql.*"%>
 <%
+      
     String user=request.getParameter("uname");
     String pwd=request.getParameter("pass");
     String fname=request.getParameter("fname");
@@ -24,4 +25,5 @@
     }else{
         response.sendRedirect("index.jsp");
     }
+
 %>

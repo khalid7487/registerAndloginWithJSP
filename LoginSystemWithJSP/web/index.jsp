@@ -30,8 +30,11 @@
                             <td><input type="text" name="pass" value=""/></td>
                         </tr>
                         <tr>
-                            <td><input type="submit" value="Login"/></td>
-                            <td><input type="submit" name="Reset"/></td>
+                            <th colspan="2" ><input type="submit" value="Login" name="submit"/></th>
+                       <!--     <td><input type="submit" value="Reset" name="reset"/></td> -->                
+                        </tr>
+                        <tr>
+                            <td colspan="2">Already registered! <a href="reg.jsp">Yet Not Registered!!</a></td>
                         </tr>
                     </tbody>
                 </table>
